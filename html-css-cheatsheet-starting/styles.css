@@ -1,0 +1,107 @@
+* {
+    font-family: Arial, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#top {
+    background-color: #FFD500;
+    text-align: center;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+h5, h1 {
+    background-color: #FFD500;
+}
+
+.intro span, .intro em {
+    background-color: #FFD500;
+}
+
+p.intro {
+  background-color: #FFD500;
+  font-size: 18px;
+  padding: 30px 30px;
+  margin: 30px auto;
+  width: 600px;
+  text-align: left;
+  border-top: 5px white solid;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  color: #FFFFFF;
+  padding: 30px auto;
+  margin: 30px auto;
+  width: 600px;
+}
+
+h2 {
+  font-weight: normal;
+  color: #FFD500;
+  text-align: left;
+   padding: 30px auto;
+  margin: 30px auto;
+  width: 600px;
+}
+
+h4 {
+  font-weight: normal;
+  text-align: left;
+   padding: 30px auto;
+  margin: 30px auto;
+  width: 600px;
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+}
+
+#linkedin {
+  width: 70px;
+  height: 40px;
+}
+
+table, th, td {
+  border: 1.5px black solid;
+}
+
+table {
+  width: 600px;
+  padding: 20px auto;
+  margin: 20px auto;
+}
+
+main {
+  padding: 30px auto;
+  margin: 30px auto;
+  width: 600px;
+}
+
+main p {
+  padding: 30px auto;
+  margin: 30px auto;
+  text-align: left;
+}
+
+td {
+  text-align: left;
+}
+
+th {
+  background-color: #C1C1C1;
+}
+
+nav li {
+  text-align: left;
+   padding: 30px auto;
+  margin: 30px auto;
+  width: 600px;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML & CSS cheatsheet</title>
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!--Header-->
+    <header id="top">
+
+        <h1>HTML & CSS rules: cheatsheet</h1>
+        <img src="./Pictures/me.png" alt="A picture of Arnaud"/>
+        <h5 class='signature'>By Arnaud Lesage</h5>
+        <p class="intro">Hi there, I'm <span class='my-name'>Arnaud Lesage</span> and I'm a junior full-stack enginner, building his career path. I have started to learn coding on <em>CodeCademy</em>, which is an awesome website, easy to handle for beginners. Hereunder, I created a cheatsheet that summarizes some basic HTML and CSS rules, to help you code your first websites. Enjoy it! And above all, have fun!</p>
+
+    </header>
+
+    <!--Main-->
+    <main>
+
+        <div class='naviguation'>
+            <h2>Table of contents</h2>
+            <nav>
+                <li><a href='#html-rules'>HTML rules</a></li>
+                <li><a href='#css-rules'>CSS rules</a></li>
+            </nav>
+            <h4>Let's start with HTML rules, which basically build the actual content of your website.<br>Then, we will move onto CSS rules, which are used to style the content of your website.</h4>
+        </div>
+
+        <div id='html-rules'>
+            <h2>HTML rules</h2>
+            <p>Here, I desrcibed all basic rules that you will need, in order to build the structure of a website. These tags need to be nested in the same order as they are displayed hereunder.</p>
+            <table>
+                <tr><!--ROW 1-->
+                    <th scope="col">HTML tags</th>
+                    <th scope="col">What it is used for</th>
+                </tr>
+
+                <tr><!--ROW 2-->
+                    <td>&lt;!DOCTYPE html&gt;</td>
+                    <td>This tag is used to indicate the browser that the document it is about to read, is a document that uses HTML language. It is always the first line of the code in the HTML file.</td>
+                </tr>
+
+                <tr><!--ROW 3-->
+                    <td>&lt;html&gt;</td>
+                    <td>The &lt;html&gt; tag is used right after the &lt;!DOCTYPE html&gt; tag and indicates that, anything that is in between, can be interpreted by the browser as HTML code.</td>
+                </tr>
+
+                <tr><!--ROW 4-->
+                    <td>&lt;head&gt;</td>
+                    <td>This tag gives more information to the browser about the web page. The &lt;head&gt; element contains the metadata for a web page. This element will also contain the title and different link tags.</td>
+                </tr>
+
+                <tr><!--ROW 5-->
+                    <td>&lt;body&gt;</td>
+                    <td>The &lt;body&gt; tag will contain all the content that will be displayed on the website.</td>
+                </tr>
+
+                <tr><!--ROW 6-->
+                    <td>&lt;header&gt;</td>
+                    <td>This tag is used to place all content that will be dispalyed at the top of the web page. Ex: banner, &lt;h1&gt; tag, ...</td>
+                </tr>
+
+                <tr><!--ROW 7-->
+                    <td>&lt;main&gt;</td>
+                    <td>The &lt;main&gt; tag contains all the main content of the web page. It can be compared to the actual text of a book, after the cover page and the table of contents.</td>
+                </tr>
+
+                <tr><!--ROW 8-->
+                    <td>&lt;footer&gt;</td>
+                    <td>Finally, the &lt;footer&gt; will contain all the elements that will be displayed in the footer of the web page.</td>
+                </tr>
+            </table>
+
+            <p>Those HTML tags can all contain multiple children tags that will allow you to give your own structure to your web page.</p>
+        </div>
+
+        <div id="css-rules">
+            <h2>CSS rules</h2>
+            <p>After describing some basic structural HTML rules, I am going to cite some basic CSS selectors that you can use to style your web page.</p>
+            <table>
+                <tr><!--ROW 1-->
+                    <th scope="col">CSS selectors</th>
+                    <th scope="col">What it is used for</th>
+                </tr>
+
+                <tr><!--ROW 2-->
+                    <td>*</td>
+                    <td>This is the <em>universal</em> selector. It is used to apply the same style rules to all elements of any type. For instance: apply the same font to all text on the page.</td>
+                </tr>
+
+                <tr><!--ROW 3-->
+                    <td>p</td>
+                    <td>The <em>type</em> selector is used to target a specific type of elements. The CSS rule will then apply the same style to all elements of that type.</td>
+                </tr>
+
+                <tr><!--ROW 4-->
+                    <td>.name</td>
+                    <td>The <em>class</em> selector is used to select an HTML element by its class. Here, for instance, the .name selector will apply the style to elements as follows: &lt;p class='name'&gt;.</td>
+                </tr>
+
+                <tr><!--ROW 5-->
+                    <td>#name</td>
+                    <td>Here, the <em>id</em> selector will target one single element. Id's can have only one value and can be used only once per page. For instance, the #name selector will target the &lt;h1 id='name'&gt;.</td>
+                </tr>
+
+                <tr><!--ROW 6-->
+                    <td>[href]</td>
+                    <td>The <em>attribute</em> selector is used to target HTML elements that already contain attributes. Here all elements that contain a [href] attribute will be styled.</td>
+                </tr>
+
+                <tr><!--ROW 7-->
+                    <td>p : hover</td>
+                    <td>The <em>pseudo-class</em> selector can give a certain style to an element after a specific interaction with that element has been done. For instance, here, the style will be given to the p element when the mouse of the user hovers over it.</td>
+                </tr>
+
+                <tr><!--ROW 8-->
+                    <td>h1.name</td>
+                    <td>Finally, <em>chaining</em> can be used to target a certain class nested in a parent element. Here, for example, the .name class inside of the &lt;h1&gt; element will be styled.</td>
+                </tr>
+            </table>
+
+            <p>All those selectors can contain mutliple rules that will give your web page its unique style.</p>
+        </div>
+
+    </main>
+
+    <!--Footer-->
+    <footer>
+
+        <h3>Hope you enjoyed it!</h3>
+        <h4>Feel free to follow me on any of the followings</h4>
+        <div class="social">
+            <a href="https://www.facebook.com/arnaud.lesage.161" target="_blank"><img src="./Pictures/facebook-logo.png"/></a>
+            <a href="https://www.instagram.com/arnaud.lsg/" target="_blank"><img src="./Pictures/instagram-logo.png"/></a>
+            <a href="https://www.linkedin.com/in/arnaud-lesage-2978aa178/" target=""_blank><img id="linkedin" src="./Pictures/linkedin-logo.png"/></a>
+        </div>
+
+    </footer>
+
+  </body>
+
+</html>
